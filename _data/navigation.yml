@@ -2,5 +2,7 @@
   link: /
 - name: O mně
   link: /about.html
+- name: Projekty
+  link: /projects.html
 - name: Kontakt
   link: /contact.html
