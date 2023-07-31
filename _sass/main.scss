@@ -44,6 +44,11 @@ main  {
 	padding-bottom: 3rem;
 }
 
+img {
+	max-width: 100%;
+	padding-top: 2rem;
+}
+
 h1, h2, h3, h4, h5, h6 {
 	font-family: $font-titles;
 	color: $main-color;
