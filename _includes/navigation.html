@@ -1,0 +1,9 @@
+<nav>
+	{% for item in site.data.navigation %}
+	<div class="flex-ver-align">
+  		<a href="{{ item.link }}" {% if page.url == item.link %}class="active"{% endif %}>
+    		{{ item.name }}
+    	</a>
+	</div>
+  	{% endfor %}
+</nav>

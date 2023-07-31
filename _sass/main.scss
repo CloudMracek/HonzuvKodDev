@@ -1,0 +1,137 @@
+// Import fonts
+@font-face {
+  font-family: 'Sono';
+  font-weight: 400;
+  font-style: normal;
+  src: url("/assets/font/Sono-SemiBold.woff2") format('woff2');
+}
+
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-style: normal;
+  src: url("/assets/font/Roboto-Regular.ttf") format('truetype');
+}
+
+// Defining fonts for the entire page
+$font-titles: 'Sono', sans-serif;
+$font-text: 'Roboto', sans-serif;
+
+// Base colors
+$main-color: #5CC416;
+$background-color: #181A1B;
+$header-color: black;
+
+
+// Common rules
+
+html, body {
+	padding: 0;
+	margin: 0;
+	color: white;
+}
+
+body {
+	background-color: $background-color;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-titles;
+	color: $main-color;
+	margin: 0;
+	padding-top: 2rem;
+}
+
+h1 {
+	font-size: 38pt;
+}
+
+h2 {
+	font-size: 28pt;
+}
+
+p, span{
+	font-family: $font-text;
+	font-size: 18pt;
+	text-align: justify;
+	margin: 0;
+	padding: 0.5rem 0 0.5rem 0;
+}
+
+a {
+	color: $main-color;
+}
+
+.flex-ver-align {
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.container {
+	width: 60%;
+	margin: auto;
+	padding-top: 3rem;
+}
+
+// Specific rules
+
+header {
+	background-color: $header-color;
+}
+
+header .container {
+	padding: 0; 
+	display: flex;
+	justify-content: space-between;
+}
+
+header h1 {
+	color: $main-color;
+	font-size: 36pt;
+	margin: 0;
+	padding: 1rem 0 1rem 0;
+}
+
+header nav {
+	display: flex;
+}
+
+header nav a {
+	font-size: 18pt;
+	font-family: $font-titles;
+	text-decoration: none !important;
+	color: $main-color;
+	padding-right: 2rem;
+}
+
+header nav .active {
+	color: #004C06;
+}
+
+#posts {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	padding-top: 3rem;
+}
+
+#posts .post {
+	color: white;
+	text-decoration: none !important;
+	background: #282828;
+	display: block;
+	padding: 2rem;
+}
+
+#posts .post h2 {
+	padding-top: 0;
+}
+
+#posts .post span {
+	font-size: 18pt;
+	font-family: $font-titles;
+	color: $main-color;
+}

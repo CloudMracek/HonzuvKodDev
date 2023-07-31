@@ -1,0 +1,24 @@
+---
+layout: page
+title: domů
+---
+<h1>Ahoj!</h1>
+<p>Vítej na mém blogu! Jsem <a href="about.html">Jan Ráček</a> a už nějakou dobou si níčím zdraví tím, 
+	že neustále koukám do nějakého monitoru a snažím se na něm vyřešit všeljaké programátorské problémy 
+	a vybastlit nějaký ten <a href="projects.html">projekt</a>. Níže nalezneš články, které občasně vydávám
+	a popisuji v nich své poznatky a jaké strasti lemovaly cestu k nim. Za pravopis ani za to, že obsah stránky
+	dává jakýkoliv smysl, neručím. Jsem spícím členem <a target="_blank" href="https://0d9e.tech">0d9e</a>.<p>
+<hr>
+<h1>Články</h1> 
+<p>Zde si počtete snad všechno, co se mi prožene hlavou či klávesnicí. Mohlo by se vám zdát, že je toho málo, ale mně se toho hlavou kromě kódu a hladu moc neprohání...</p>
+<ul id="posts">
+  {% for post in site.posts %}
+	<li>
+		<a class="post" href="{{ post.url }}" alt="{{ post.title }}">
+      		<h2>{{ post.title }}</h2>
+			<span>{{ post.date | date: "%-d. %-M. %Y" }}</span>
+			<p>{{ post.excerpt }}</p>
+		</a>
+    </li>
+  {% endfor %}
+</ul>

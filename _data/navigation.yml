@@ -1,0 +1,6 @@
+- name: Domů
+  link: /
+- name: O mně
+  link: /about.html
+- name: Kontakt
+  link: /contact.html
