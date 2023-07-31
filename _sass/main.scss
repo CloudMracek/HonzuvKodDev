@@ -168,3 +168,27 @@ footer {
 footer p {
 	text-align: center;
 }
+
+@media screen and (max-width: 1000px) {
+	.container{
+		width: 80%;
+	}
+}
+
+
+@media screen and (max-width: 840px) {
+	.container{
+		width: 90%;
+	}
+
+	header .container {
+		display: block;
+	}
+	header nav a {
+		font-size: 12pt;
+		padding-right: 1rem;
+	}
+	header nav {
+		padding-bottom: 1rem;
+	}
+}
