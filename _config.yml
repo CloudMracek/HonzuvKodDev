@@ -7,7 +7,10 @@ url: "https://honzuvkod.dev" # the base hostname & protocol for your site, e.g. 
 twitter_username: jekyllrb
 github_username:  jekyll
 
-# Build settings
+highlighter: rouge
+
+
+#build settings
 plugins:
   - jekyll-feed
 
