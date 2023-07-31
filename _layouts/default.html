@@ -9,12 +9,20 @@
 <body>
 	<header>
 		<div class="container">
-			<h1>Honzův kód</h1>
+			<a href="/"><h1>Honzův kód</h1></a>
 			{% include navigation.html %}
 		</div>
 	</header>
+	
 	<main class="container">
-		{{ content }}
+		<div class="content-wrapper">
+			{{ content }}
+		</div>
 	</main>
+	
+	<footer>
+		<p>Vyrobeno s láskou a kávou</p>
+	</footer>
+
 </body>
 </html>
