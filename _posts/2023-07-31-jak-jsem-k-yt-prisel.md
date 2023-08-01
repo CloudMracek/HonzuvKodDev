@@ -18,7 +18,7 @@ Absolutně jsem nevědel co dělat. Léta, kdy jsem před sebou viděl kariéru 
 toho víc...
 
 Mezi svým prvním videem (které vybouchlo v popularitě) a mým "úspěchem" jsem vydal několik dalších videí. V té době jsem měl iluzi, že PlayStation byla jednorázová záležitost, o které natočím
-jedno video a budu se moci nadále věnovat jinému hardwaru. To jsem se ovšem zmílil. Po tom, co jsem nahrál malý channel update, kde jsem řekl, že plánuji jiné věci, než PlayStation, jsem zjistil,
+jedno video a budu se moci nadále věnovat jinému hardwaru. To jsem se ovšem zmýlil. Po tom, co jsem nahrál malý channel update, kde jsem řekl, že plánuji jiné věci, než PlayStation, jsem zjistil,
 že mi to asi neprojde. Proto jsem musel po návratu z dovolené [natočit pokračování série o PlayStationu](https://youtu.be/Ys_6yjkDkWM). Byla to jedna z nejvíce nepříjemných věcí, které jsem musel kdy udělat, což je na mně v tom
 videu vidět. Měl jsem na zádech očekávání tísíců lidí. Tak jsem změnil SDK a pustil jsem se do 3D. Udělal jsem 3D kopii své první hry, která byla pouze 2D. Komunitu to rozdělilo. Někteří byli nadšeni
 z 3D, jiní byli zklamáni, že jsem udělal tu stejnou hru.
